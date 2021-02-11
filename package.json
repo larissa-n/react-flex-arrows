@@ -1,11 +1,11 @@
 {
-  "name": "react-simple-arrows",
+  "name": "react-flex-arrows",
   "version": "0.2.0",
   "description": "react components which make it simple to draw svg arrows in a react app",
-  "author": "UladKasach @uladkasach",
+  "author": "@larissa-n",
   "license": "MIT",
-  "repository": "uladkasach/react-simple-arrows",
-  "homepage": "https://github.com/uladkasach/react-simple-arrows",
+  "repository": "larissa-n/react-flex-arrows",
+  "homepage": "https://github.com/larissa-n/react-flex-arrows",
   "keywords": [
     "react",
     "arrow",
@@ -13,7 +13,7 @@
     "draw",
     "svg"
   ],
-  "bugs": "https://github.com/uladkasach/react-simple-arrows/issues",
+  "bugs": "https://github.com/larissa-n/react-flex-arrows/issues",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8.0.0"
