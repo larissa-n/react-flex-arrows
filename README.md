@@ -1,10 +1,6 @@
-# react-simple-arrows
+# react-flex-arrows
 
-[![Version](https://img.shields.io/npm/v/react-simple-arrows.svg)](https://npmjs.org/package/react-simple-arrows)
-[![Downloads/week](https://img.shields.io/npm/dw/react-simple-arrows.svg)](https://npmjs.org/package/react-simple-arrows)
-[![License](https://img.shields.io/npm/l/react-simple-arrows.svg)](https://github.com/uladkasach/react-simple-arrows/blob/master/package.json)
-
-react components which make it simple to create svg arrows in a react app
+Fork of [react-simple-arrows](https://npmjs.org/package/react-simple-arrows). Creates svg arrows in a react app. Can be used in portals as well as applications with advanced scrolling behavior.
 
 # usage
 
@@ -138,5 +134,4 @@ is produced by
     )}
   </ArrowsBetweenDivsContextProvider>
 ```
-
 
