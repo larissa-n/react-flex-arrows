@@ -34,7 +34,7 @@
     "preversion": "npm run test",
     "postversion": "git push origin master --tags",
     "prepublish": "npm run build",
-    "prepare": "npm run build"
+    "postinstall": "cd ./node_modules/react-flex-arrows && npm install && npm run build"
   },
   "devDependencies": {
     "@testing-library/react": "^9.4.0",
