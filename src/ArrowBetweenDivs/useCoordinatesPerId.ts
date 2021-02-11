@@ -16,8 +16,8 @@ export interface CoordinatesPerId {
 }
 export const getCoordinatesFromDiv = ({ div }: { div: HTMLDivElement }) => {
   const box = div.getBoundingClientRect();
-  const offsetY = div.closest("#titlebar + div") && div.closest("#titlebar + div").scrollTop || window.scrollY;
-  const offsetX = div.closest("#titlebar + div") && div.closest("#titlebar + div").scrollLeft || window.scrollX;
+  const offsetY = div.closest("#titlebar + div")  ? div.closest("#titlebar + div")!.scrollTop : window.scrollY;
+  const offsetX = div.closest("#titlebar + div") ? div.closest("#titlebar + div")!.scrollLeft : window.scrollX;
   const coordinates = {
     top: box.top + offsetY,
     bottom: box.bottom + offsetY,
